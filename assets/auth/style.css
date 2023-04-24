@@ -1,0 +1,79 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.sampul {
+  background-image: url("https://cms-assets.tutsplus.com/cdn-cgi/image/width=850/uploads/users/1500/posts/30657/image/business_background_with_ofice_supplies.jpg");
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+}
+
+.kolom-login{
+  background-color: #262626;
+  color: #fff;
+  width: 330px;
+  height: 400px;
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  box-sizing: border-box;
+  padding: 70px 30px;
+}
+
+.gambarprofil{
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  position: absolute;
+  top: -50%;
+  left: calc(50% - 50px);
+}
+
+h1{
+  margin: 0;
+  padding: 0 0 20px;
+  text-align: center;
+  font-size: 22px;
+}
+
+.kolom-login p{
+  margin: 0;
+  padding: 0;
+  font-weight: bold;
+}
+
+.kolom-login input{
+  width: 100%;
+  margin-bottom: 20px;
+  border: none;
+  border-bottom: 1px solid #fff;
+  background: transparent;
+  outline: none;
+  height: 40px;
+  color: #fff;
+  font-size: 16px;
+}
+
+.kolom-login button{
+  border: none;
+  outline: none;
+  height: 30px;
+  color: #fff;
+  font-size: 18px;
+  border-radius: 20px;
+  background-color: firebrick;
+  margin-top: 10px;
+  width: 100%;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.kolom-login button:hover{
+  background-color: #de1616;
+  color: #fff;
+}
