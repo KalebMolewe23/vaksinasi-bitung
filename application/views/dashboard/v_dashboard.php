@@ -8,7 +8,7 @@
     <main>
         <div class="container-fluid">
             <h3><strong>Data Vaksinasi COVID-19</strong></h3>
-            <p>[Kecamatan lowokwaru]</p><br>
+            <p>[Kecamatan Bitung]</p><br>
             <div class="row">
                 <div class="col-sm">
                     <div class="card">

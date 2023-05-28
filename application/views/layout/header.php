@@ -328,7 +328,7 @@
             </li>
             <li>
                 <div class="iocn-link">
-                    <a href="<?= base_url("administrator/data/index"); ?>">
+                    <a href="#">
                         <i class='bx bxs-book-alt'></i>
                         <span class="link_name">Informasi</span>
                     </a>

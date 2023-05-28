@@ -125,6 +125,9 @@
               <tr align="center">
               <th rowspan="2">#</th>
               <th rowspan="2">Desa / Kelurahan</th>
+              <th rowspan="2">Belum Vaksin 1</th>
+              <th rowspan="2">Belum Vaksin 2</th>
+              <th rowspan="2">Belum Vaksin 3</th>
               <th rowspan="2">Centroid 1</th>
               <th rowspan="2">Centroid 2</th>
               <th rowspan="2">Centroid 3</th>

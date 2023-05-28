@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Apr 24, 2023 at 01:07 PM
+-- Generation Time: May 28, 2023 at 01:08 PM
 -- Server version: 10.4.24-MariaDB
 -- PHP Version: 8.1.6
 
@@ -54,6 +54,9 @@ INSERT INTO `about` (`idabout`, `phone`, `email`, `address`, `media1`, `media2`,
 CREATE TABLE `area` (
   `idarea` int(11) NOT NULL,
   `area_name` varchar(100) NOT NULL,
+  `nama_puskesmas` varchar(100) NOT NULL,
+  `lat` double NOT NULL,
+  `lng` double NOT NULL,
   `geojson` varchar(100) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
@@ -61,15 +64,15 @@ CREATE TABLE `area` (
 -- Dumping data for table `area`
 --
 
-INSERT INTO `area` (`idarea`, `area_name`, `geojson`) VALUES
-(1, 'Kecamatan Matuari', 'kec_matuari.geojson'),
-(2, 'Kecamatan Ranuwulu', 'kec_ranowulu.geojson'),
-(3, 'Kecamatan Girian', 'kec_girian.geojson'),
-(4, 'Kecamatan Madidir', 'kec_madidir.geojson'),
-(5, 'Kecamatan Maesa', 'kec_maesa.geojson'),
-(6, 'Kecamatan Aertembaga', 'kec_aertembaga.geojson'),
-(7, 'Kecamatan Lembeh Selatan', 'kec_lembeh_sel.geojson'),
-(8, 'Kecamatan Lembeh Utara', 'kec_lembeh_ut.geojson');
+INSERT INTO `area` (`idarea`, `area_name`, `nama_puskesmas`, `lat`, `lng`, `geojson`) VALUES
+(1, 'Kecamatan Malang', 'Puskesmas Sagerat', 1.42976773612, 125.100628361, 'kec_matuari.geojson'),
+(2, 'Kecamatan Ranuwulu', 'Puskesmas Danowudu', 1.4619347, 125.1241563, 'kec_ranowulu.geojson'),
+(3, 'Kecamatan Girian', 'Puskesmas Girian Weru', 1.4428106, 125.1332082, 'kec_girian.geojson'),
+(4, 'Kecamatan Madidir', 'Puskesmas Paceda', 1.45149645525, 125.158358155, 'kec_madidir.geojson'),
+(5, 'Kecamatan Maesa', 'Puskesmas Bitung Barat', 1.44328741391, 125.183009155, 'kec_maesa.geojson'),
+(6, 'Kecamatan Aertembaga', 'Puskesams Aertembaga', 1.45325653023, 125.203474179, 'kec_aertembaga.geojson'),
+(7, 'Kecamatan Lembeh Selatan', 'Puskesmas Papusungan', 1.4319663, 125.208791167, 'kec_lembeh_sel.geojson'),
+(8, 'Kecamatan Lembeh Utara', 'Puskesmas Pintukota', 1.4522031, 125.2473994, 'kec_lembeh_ut.geojson');
 
 -- --------------------------------------------------------
 
@@ -373,7 +376,7 @@ ALTER TABLE `centroid_temp`
 -- AUTO_INCREMENT for table `data_vaccien`
 --
 ALTER TABLE `data_vaccien`
-  MODIFY `idata_vaccien` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=10;
+  MODIFY `idata_vaccien` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=11;
 
 --
 -- AUTO_INCREMENT for table `hasil_centroid`
