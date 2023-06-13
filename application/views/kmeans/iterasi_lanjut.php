@@ -2,7 +2,7 @@
 
     <div class="home-content">
         <i class='bx bx-menu'></i>
-        <span class="text"><i class='bx bxs-home'></i> Data Malaria Monokwari(Papua Barat)</span>
+        <span class="text"><i class='bx bxs-home'></i> Data K-means Daerah Bitung</span>
     </div>
 
     <main>

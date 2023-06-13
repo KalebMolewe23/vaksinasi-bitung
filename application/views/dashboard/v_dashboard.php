@@ -8,7 +8,7 @@
     <main>
         <div class="container-fluid">
             <h3><strong>Data Vaksinasi COVID-19</strong></h3>
-            <p>[Kecamatan Bitung]</p><br>
+            <p>[Kota Bitung]</p><br>
             <div class="row">
                 <div class="col-sm">
                     <div class="card">
@@ -62,7 +62,7 @@
                     </div>
                 </div>
             </div><br><br>
-            <h3><strong>Data Pemetaan Kecamatan Lowokwaru</strong></h3>
+            <h3><strong>Data Pemetaan Kota Bitung</strong></h3>
             <div class="container">
                 <ol style="list-style-type:square; width: 600px;">
                     <li style="float: left; color:red; width: 200px; padding: 2px 0px;">Zona Merah</li>

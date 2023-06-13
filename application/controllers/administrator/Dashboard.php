@@ -65,7 +65,7 @@ class Dashboard extends CI_Controller
       $this->session->userdata('email')])->row_array();
 
       $data['title'] = 'Home';
-      $wilayah['lowokwaru'] = $this->m_daerah->zkuning();
+      $wilayah['Bitung'] = $this->m_daerah->zkuning();
       $wilayah['vaksin'] = $this->m_daerah->graph2();
       $this->load->view('admin/templates/header', $data);
       $this->load->view('admin/kuning', $wilayah);
@@ -81,7 +81,7 @@ class Dashboard extends CI_Controller
       $this->session->userdata('email')])->row_array();
 
       $data['title'] = 'Home';
-      $wilayah['lowokwaru'] = $this->m_daerah->zmerah();
+      $wilayah['Bitung'] = $this->m_daerah->zmerah();
       $wilayah['vaksin'] = $this->m_daerah->graph3();
       $this->load->view('admin/templates/header', $data);
       $this->load->view('admin/merah', $wilayah);

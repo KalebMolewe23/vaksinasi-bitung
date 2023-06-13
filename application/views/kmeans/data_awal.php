@@ -2,7 +2,7 @@
 
     <div class="home-content">
         <i class='bx bx-menu'></i>
-        <span class="text"><i class='bx bxs-home'></i> Data Reksadana Area Bitung</span>
+        <span class="text"><i class='bx bxs-home'></i> Perhitungan K-means Area Bitung</span>
     </div>
 
     <main>

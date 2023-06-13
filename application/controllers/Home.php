@@ -13,7 +13,7 @@ class Home extends CI_Controller
     }
 
     public function index(){
-        $data['title'] = "Informasi Malaria";
+        $data['title'] = "Informasi Vaksin Kota Bitung";
 
         $data_centroid['vaksin'] = $this->m_daerah->total_vaksin1()->result();
         $data_centroid['vaksin1'] = $this->m_daerah->total_vaksin2()->result();

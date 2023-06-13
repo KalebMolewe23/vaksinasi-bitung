@@ -220,7 +220,7 @@
     <ul class="navbar">
       <li><a href="#home">Home</a></li>
       <li><a href="#pemetaan">Pemetaan</a></li>
-      <li><a href="#data">Data Malaria</a></li>
+      <li><a href="#data">Data Vaksinsasi</a></li>
       <li><a href="#about">Tentang Kami</a></li>
     </ul>
 

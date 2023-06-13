@@ -41,7 +41,7 @@
   <!-- box 3 -->
   <div class="box">
     <i class='bx bx-home-alt'></i>
-    <h3>Info Lengkap Manokwari</h3>
+    <h3>Info Lengkap Vaksinasi</h3>
     <p><?= $media1; ?></p>
   </div>
 </section>
@@ -52,7 +52,7 @@
   </div>
   <div class="about-text">
     <span>About Us</span>
-    <h2>Informasi Malaria Pada Manokwari<br> Papua Barat</h2>
+    <h2>Informasi Vaksinasi<br> Bitung</h2>
     <p><?= $about; ?></p>
   </div>
 </section>
