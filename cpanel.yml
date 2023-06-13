@@ -1,6 +1,6 @@
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/u1525578/public_html/
+    - export DEPLOYPATH=/home/vake9635/public_html/
     - /bin/cp .editorconfig $DEPLOYPATH
     - /bin/cp .gitignore $DEPLOYPATH
     - /bin/cp .htaccess $DEPLOYPATH
