@@ -75,7 +75,7 @@ $query_builder = TRUE;
 
 $db['default'] = array(
 	'dsn'	=> '',
-	'hostname' => 'localhost:3306',
+	'hostname' => 'localhost:3308',
 	'username' => 'vake9635_data_vaksin',
 	'password' => 'Bagaskara123456789',
 	'database' => 'vake9635_vaksinasi',
