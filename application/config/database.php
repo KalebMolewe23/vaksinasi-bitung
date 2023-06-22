@@ -75,10 +75,10 @@ $query_builder = TRUE;
 
 $db['default'] = array(
 	'dsn'	=> '',
-	'hostname' => 'localhost:2083',
+	'hostname' => 'localhost',
 	'username' => 'vake9635_data_vaksin',
-	'password' => 'Bagaskara123456789',
-	'database' => 'vake9635_vaksinasi',
+	'password' => 'Pzq485Kd84',
+	'database' => 'vake9635_bitung_db',
 	'dbdriver' => 'mysqli',
 	'dbprefix' => '',
 	'pconnect' => FALSE,
