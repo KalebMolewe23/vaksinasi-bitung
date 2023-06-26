@@ -24,7 +24,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 |
 */
 // $config['base_url'] = 'http://localhost/vaksinasi-bitung/';
-$config['base_url'] = 'http://vaksinasicovidbitung.online/';
+$config['base_url'] = 'https://vaksinasicovidbitung.online/';
 
 /*
 |--------------------------------------------------------------------------
