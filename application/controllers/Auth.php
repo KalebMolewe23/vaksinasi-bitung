@@ -42,6 +42,8 @@ class Auth extends CI_Controller
                         'email' => $user['email'],
                         'role_id' => $user['role_id']
                     ];
+                    var_dump($user);
+                    die();
                     $this->session->set_userdata($data);
                     if ($user['role_id'] == 1) { //jika role id 1 yang terpanggil maka tampilan admin yang akan ditampilkan
                         redirect('administrator/dashboard/');
@@ -60,6 +62,8 @@ class Auth extends CI_Controller
             $this->session->set_flashdata('message', '<div class="alert alert-danger" role="alert"> Akun Tidak Ada!!! </div>');
             redirect('auth');
         }
+
+        
     }
 
     public function register()
